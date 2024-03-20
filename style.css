@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: #000000;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#tryAgainButton {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#startScreenImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#gameOverScreen {
+    display: none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#scoreBox {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
